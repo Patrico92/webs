@@ -1,0 +1,46 @@
+body {
+	background-color: #FFF8DC;
+	box-sizing: border-box;
+}
+
+#header-nav {
+	background-color: BlanchedAlmond;
+	border-radius: 20;
+	border: 1px solid black;
+}
+
+.navbar-brand {
+	text-shadow: 1px 1px 2px grey;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	text-align: center;
+}
+
+#nav-list a {
+	color: white;
+}
+
+#collapsable-nav {
+	background-color: BlueViolet;
+}
+
+@media (min-width: 768px){
+	#collapsable-nav {
+		background-color: BlanchedAlmond;
+	}
+}
+
+#nav-list {
+	padding: 0;
+}
+
+#recipe-section {
+	background-color: CadetBlue;
+	padding: 10px 20px 20px 20px;
+	}
+
